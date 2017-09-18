@@ -1,0 +1,26 @@
+{
+  "python.autoComplete.addBrackets": true,
+  "editor.tabSize": 4,
+  // "python.pythonPath": "C:\\opt\\python-envs\\iron-bank",
+  "python.pythonPath": "~/opt/python-envs/iron-bank/bin/python",
+  "python.autoComplete.extraPaths": [
+    "~/opt/python-envs/iron-bank/bin"
+    // "C:\\opt\\python-envs\\iron-bank\\Scripts"
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.cache": true,
+    "**/.eggs": true,
+    "**/*.egg-info": true,
+    "**/**/__pycache__": true
+  },
+  "python.unitTest.promptToConfigure": false,
+  "python.unitTest.pyTestEnabled": false,
+  "python.unitTest.unittestEnabled": false,
+  "python.unitTest.nosetestsEnabled": false,
+  "python.formatting.provider": "yapf"
+}
